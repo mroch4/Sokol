@@ -1,0 +1,53 @@
+.banner {
+    position: relative;
+    background-image: url('../images/film.png');
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+    @include media-breakpoint-up(sm) {
+        height: 660px;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: 740px;
+    }
+
+    @include media-breakpoint-up(xlg) {
+        height: 792px;
+    }
+
+    .label {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 5rem;
+        color: $white;
+        background-image: linear-gradient(to bottom, rgba(1, 1, 1, 0.4) -75.92%, rgba(255, 255, 255, 0) 190.1%);
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    @include responsive-h1;
+    @include responsive-font-size;
+
+    .mdksocial {
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        z-index: 10000;
+        background-color: $white;
+        border-radius: calc(2*$radius-sm);
+
+        .icon {
+            width: 1.5rem;
+            text-align: center;
+        }
+    }
+}

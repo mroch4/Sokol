@@ -1,0 +1,16 @@
+section.controls.justify-content-end
+    span.button(onclick="changeContrast()"): img(src="../svg/contrast.svg")
+    span.button(onclick="updateFontSize(1)") A<sup>+</sup>
+    span.button(onclick="updateFontSize(-1)") A<sup>-</sup>
+
+script.
+    var baseFontSize = parseInt(localStorage.getItem("baseFontSize")) || 16;
+    updateFontSize(0);
+    function updateFontSize(changeValue) {
+        baseFontSize += changeValue;
+        document.documentElement.style.fontSize = baseFontSize + "px";
+        localStorage.setItem("baseFontSize", baseFontSize.toString());
+    }
+    function changeContrast() {
+        console.log('changeContrast')
+    }

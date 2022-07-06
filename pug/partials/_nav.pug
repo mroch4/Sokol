@@ -1,0 +1,17 @@
+div.container.d-flex.justify-content-end
+    include components/_controls
+nav.navbar.navbar-expand-md.navbar-light.px-3
+    div.container.align-items-end.justify-content-between.mb-3
+        a.navbar-brand(href="#")
+        button.navbar-toggler.d-md-none(type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+            +svg-hamburger
+        div#navbarNav.collapse.navbar-collapse.mt-3
+            h3.d-flex.d-md-none.pb-2 Menu
+            ul.navbar-nav.pb-2
+                li.nav-item: a.nav-link.active(href="/" aria-current="page") Strona główna
+                li.nav-item: a.nav-link.active(href="/news" aria-current="page") Aktualności
+                li.nav-item: a.nav-link.active(href="/events" aria-current="page") Wydarzenia
+                li.nav-item: a.nav-link(href="/contact") Kontakt
+            div.d-flex.d-md-none
+                include components/_mdksocial
+

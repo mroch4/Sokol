@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Mulish", sans-serif !important
+        }
+    </style>
+    <script src="static/js/contact.784b20e0.js" defer=""></script>
+    <link rel="stylesheet" href="static/css/contact.8544787e.css">
+    <link rel="stylesheet" href="static/css/contact.99ad3c6e.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-end">
+        <section class="controls justify-content-end"><span class="button" onclick="changeContrast()"><img
+                    src="static/images/svg/contrast.ea2d1f1e.svg"></span><span class="button"
+                onclick="updateFontSize(1)">A<sup>+</sup></span><span class="button"
+                onclick="updateFontSize(-1)">A<sup>-</sup></span></section>
+        <script>var baseFontSize = parseInt(localStorage.getItem("baseFontSize")) || 16;
+            updateFontSize(0);
+            function updateFontSize(changeValue) {
+                baseFontSize += changeValue;
+                document.documentElement.style.fontSize = baseFontSize + "px";
+                localStorage.setItem("baseFontSize", baseFontSize.toString());
+            }
+            function changeContrast() {
+                console.log('changeContrast');
+            }
+
+        </script>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light px-3">
+        <div class="container align-items-end justify-content-between mb-3"><a class="navbar-brand"
+                href="index.html"></a><button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation"><svg width="34" height="26" viewbox="0 0 34 26" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.9999 3.71429V0H0.571289V3.71429H33.9999Z" fill="#17171B"></path>
+                    <path d="M33.9999 11.1429V14.8571H0.571292V11.1429H33.9999Z" fill="#17171B"></path>
+                    <path d="M33.9999 26V22.2857H0.571291V26H33.9999Z" fill="#17171B"></path>
+                </svg></button>
+            <div class="collapse navbar-collapse mt-3" id="navbarNav">
+                <h3 class="d-flex d-md-none pb-2">Menu</h3>
+                <ul class="navbar-nav pb-2">
+                    <li class="nav-item"><a class="nav-link active" href="/" aria-current="page">Strona główna</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="news.html" aria-current="page">Aktualności</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="events.html"
+                            aria-current="page">Wydarzenia</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+                </ul>
+                <div class="d-flex d-md-none">
+                    <section class="mdksocial">
+                        <div class="d-col m-3"><a class="icon m-1"
+                                href="https://www.youtube.com/c/MDKStalowaWolaofficial" target="_blank"><svg width="28"
+                                    height="20" viewbox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.5525 0.259435C23.2318 0.295982 23.9081 0.378237 24.5768 0.505668C26.1997 0.803032 27.2397 1.92746 27.5467 3.67576C27.9678 6.07396 28.0529 8.49817 27.9731 10.9228C27.9174 12.6182 27.7582 14.3113 27.5972 16.0009C27.4792 17.2383 26.9879 18.2914 25.9212 18.9952C25.2694 19.4248 24.5347 19.5495 23.7881 19.6303C20.8932 19.9442 17.9864 20.0133 15.0801 19.998C12.1549 19.9828 9.22925 19.8926 6.30756 19.7962C5.36847 19.7648 4.42805 19.6415 3.49685 19.5024C1.89893 19.2634 0.808066 18.1416 0.47778 16.457C0.147495 14.7724 0.0707345 13.0663 0.022047 11.3583C-0.0415538 9.11084 0.0264338 6.86648 0.304962 4.63333C0.364351 4.13088 0.454149 3.63267 0.57384 3.14158C0.951497 1.6422 2.14939 0.63215 3.73677 0.428525C6.47249 0.0773392 9.22399 0.0481841 11.9742 0.000641736C12.6233 -0.0105711 19.6791 0.127123 22.5525 0.259435ZM11.2246 5.71649V14.2799L18.4948 9.99844L11.2246 5.71649Z"
+                                        fill="#FF0000"></path>
+                                </svg></a><a class="icon m-1" href="https://pl-pl.facebook.com/mdkstalowawola/"
+                                target="_blank"><svg width="14" height="30" viewbox="0 0 14 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.4362 14.9711H9.28369V30H2.99224V14.9711H0V9.68936H2.99224V6.27146C2.99224 3.8273 4.16748 0 9.33969 0L14 0.0192615V5.1461H10.6186C10.064 5.1461 9.28411 5.41986 9.28411 6.5858V9.69427H13.9859L13.4362 14.9711Z"
+                                        fill="#1877F2"></path>
+                                </svg></a></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="contact mb-4">
+            <div class="container my-2"><img class="sokol" src="static/images/svg/sokol.ba680f94.svg"
+                    alt="Sokoł building"></div>
+            <div class="container p-3">
+                <h1 class="mb-3">Sokół MDK to filia Domu Kultury we Stalowej Woli, działający w Rozwadowie.</h1>
+                <div class="d-col flex-md-row flex-center">
+                    <div class="d-flex col-12 col-sm-8 col-md-5 col-lg-4 col-xxl-3 align-items-center m-2 p-2 card"><img
+                            src="static/images/svg/email.e2952efa.svg" alt="Email icon"><span class="ms-2"><a
+                                href="mailto:sokol@mdkstalowawola.pl">sokol@mdkstalowawola.pl</a></span></div>
+                    <div class="d-flex col-12 col-sm-8 col-md-5 col-lg-4 col-xxl-3 align-items-center m-2 p-2 card"><img
+                            src="static/images/svg/phone.809208f3.svg" alt="Mail icon">
+                        <div class="d-col"><span class="phone ms-2"><a href="0048156000285">tel. 15 600 02
+                                    85</a></span><span class="desc ms-2 c-fs-sm">Poniedziałek - piątek:
+                                8:00-16:00</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="p-3">
+        <div class="container d-col">
+            <div class="d-col card flex-md-row mb-4"><iframe class="col-xxl-5"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.0406531618487!2d22.046986099999998!3d50.5891977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722d2d3813935bd%3A0x7c217099c1f3e7a4!2sRozwadowska%2021%2C%2037-450%20Stalowa%20Wola!5e0!3m2!1spl!2spl!4v1655886568021!5m2!1spl!2spl"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="d-row align-items-start p-3"><img class="pt-3"
+                        src="static/images/svg/sokol_icon.768b89ca.svg" alt="Sokol icon">
+                    <div class="ms-2"><span class="c-fs-small">ul. Rozwadowska 21</span>
+                        <h2 class="my-1">Rozwiń skrzydła z „Sokołem”</h2><span class="d-flex col-md-8 c-fs-small">Ponad
+                            100-letni budynek „Sokoła” ponownie odzyskał swój blask i ma szansę na nowo stać się centrum
+                            życia artystycznego Rozwadowa. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-col justify-content-center flex-sm-row justify-content-between mb-3"><a class="logo-footer"
+                    href="#"></a>
+                <ul class="d-col flex-sm-row list-unstyled">
+                    <div class="d-col flex-md-row pri">
+                        <li class="header"><a href="/">AKTUALNOŚCI<ul
+                                    class="d-none d-sm-flex flex-column list-unstyled sublist">
+                                    <li class="my-1"><a class="submenu" href="/">Dla dzieci</a></li>
+                                    <li class="my-1"><a class="submenu" href="/">Dla młodzieży</a></li>
+                                    <li class="my-1"><a class="submenu" href="/">Dla dorosłych</a></li>
+                                </ul></a></li>
+                        <li class="header"><a href="/">ZAJĘCIA STAŁE<ul
+                                    class="d-none d-sm-flex flex-column list-unstyled sublist">
+                                    <li class="my-1"><a class="submenu" href="/">Dla dzieci</a></li>
+                                    <li class="my-1"><a class="submenu" href="/">Dla młodzieży</a></li>
+                                    <li class="my-1"><a class="submenu" href="/">Dla dorosłych</a></li>
+                                </ul></a></li>
+                    </div>
+                    <div class="d-col flex-md-row">
+                        <div class="d-col flex-lg-row sec">
+                            <li class="header"><a href="/">POZNAJ NAS</a></li>
+                            <li class="header"><a href="/">PROJEKTY<ul
+                                        class="d-none d-sm-flex flex-column list-unstyled sublist">
+                                        <li class="my-1"><a class="submenu" href="/">Castingi</a></li>
+                                        <li class="my-1"><a class="submenu" href="/">Koncerty</a></li>
+                                    </ul></a></li>
+                        </div>
+                        <div class="d-flex tri">
+                            <li class="header"><a href="/">KONTAKT<div
+                                        class="d-none d-md-flex flex-column list-unstyled sublist">
+                                        <span>sokol@mdkstalowawola.pl</span><span>tel. 15 600 02 85</span><span
+                                            class="c-fs-xs date">Poniedziałek - piątek: 8:00-16:00 </span><span>ul.
+                                            Rozwadowska 21</span><span>35-074 Stalowa Wola</span></div></a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <footer class="magico">
+                <div class="container d-none d-sm-flex mb-3 footer-divider"></div>
+                <div class="container d-col flex-sm-row-reverse justify-content-between">
+                    <div class="container d-row align-items-center socials">
+                        <div class="icons"><span class="mx-3"><svg width="16" height="19" viewbox="0 0 16 19"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.2133 13.6116C8.0793 13.5239 7.60281 12.9615 6.71348 12.4217C6.22469 14.9862 5.62734 17.4446 3.85803 18.7289C3.31122 14.8528 4.65966 11.9415 5.28589 8.85124C4.21847 7.05438 5.41423 3.43768 7.66565 4.32888C10.4366 5.42464 5.26663 11.0101 8.73735 11.7078C12.3607 12.4361 13.8399 5.42063 11.5928 3.13873C8.34616 -0.155768 2.14246 3.06387 2.90532 7.78008C3.09116 8.93306 4.28264 9.28307 3.38127 10.874C1.30339 10.4139 0.683583 8.77503 0.763265 6.59019C0.89188 3.01386 3.97675 0.509763 7.07098 0.163227C10.9842 -0.274757 14.6571 1.60018 15.164 5.28106C15.7344 9.43548 13.3974 13.9346 9.2133 13.6116Z"
+                                        fill="white"></path>
+                                </svg></span><span class="mx-3"><svg width="19" height="15" viewbox="0 0 19 15"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.0317 2.27119C17.3889 2.55622 16.6974 2.74901 15.9723 2.83511C16.7127 2.39151 17.2809 1.68962 17.5491 0.851885C16.8562 1.26286 16.0886 1.561 15.2722 1.7217C14.6182 1.02515 13.6863 0.589844 12.6545 0.589844C10.6747 0.589844 9.06907 2.19552 9.06907 4.17527C9.06907 4.45629 9.10089 4.72983 9.16239 4.99241C6.1826 4.84294 3.54053 3.41561 1.77202 1.24575C1.46345 1.77518 1.28644 2.39151 1.28644 3.04849C1.28644 4.29211 1.91988 5.39001 2.88142 6.03282C2.29396 6.01437 1.74073 5.85313 1.25756 5.58387C1.25729 5.59911 1.25729 5.61435 1.25729 5.62933C1.25729 7.36656 2.4937 8.81554 4.1336 9.14469C3.83305 9.22705 3.51566 9.27063 3.18918 9.27063C2.95762 9.27063 2.73328 9.24844 2.51456 9.20673C2.97072 10.6308 4.29457 11.6675 5.86387 11.6967C4.63656 12.6585 3.09078 13.2315 1.41051 13.2315C1.12173 13.2315 0.835621 13.2146 0.555664 13.1812C2.14155 14.1989 4.02664 14.7922 6.05131 14.7922C12.6462 14.7922 16.2527 9.32893 16.2527 4.59052C16.2527 4.43517 16.2493 4.28035 16.2423 4.12687C16.9434 3.6215 17.5512 2.9902 18.0317 2.27119Z"
+                                        fill="white"></path>
+                                </svg></span><span class="mx-3"><a href="https://pl-pl.facebook.com/AgencjaMagico/"
+                                    target="_blank"><svg width="10" height="20" viewbox="0 0 10 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.76887 10.1108H6.0923V19.9165H2.03708V10.1108H0.108398V6.66466H2.03708V4.43463C2.03708 2.83992 2.79459 0.342773 6.1284 0.342773L9.13225 0.355341V3.70038H6.95276C6.59526 3.70038 6.09257 3.879 6.09257 4.63972V6.66786H9.12316L8.76887 10.1108Z"
+                                            fill="white"></path>
+                                    </svg></a></span></div>
+                        <div class="d-row align-items-center"><span class="flex-center mx-3"><svg width="16" height="17"
+                                    viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.50051 0.524414H8.50265C8.53671 0.535474 8.57162 0.543713 8.60704 0.549049C10.1244 0.664712 11.5066 1.16244 12.7196 2.07773C14.8149 3.65819 15.9293 5.76978 15.9974 8.39915C16.0433 10.1792 15.5235 11.8056 14.4575 13.232C12.9196 15.2897 10.8539 16.4083 8.28259 16.5169C6.31339 16.6004 4.54377 15.9991 3.00841 14.7632C1.4459 13.5021 0.475913 11.8736 0.121823 9.88983C0.0704632 9.6038 0.0408181 9.31402 0.000732422 9.0259V8.02585C0.011779 7.98677 0.0202865 7.94702 0.0262029 7.90684C0.13268 6.54101 0.553997 5.27957 1.32064 4.14465C2.60421 2.24058 4.37466 1.06139 6.64159 0.64801C6.92553 0.594145 7.2149 0.5645 7.50051 0.524414ZM4.10116 5.21276C3.36333 5.21276 2.60379 5.21276 1.84425 5.21735C1.80041 5.21735 1.73945 5.27205 1.71565 5.31673C1.44737 5.81619 1.25019 6.35068 1.12981 6.9047C1.04922 7.27758 0.999114 7.65631 0.933139 8.04714H3.74248C3.86399 7.09803 3.98257 6.16103 4.10283 5.21276H4.10116ZM11.9003 5.21276C12.0206 6.16312 12.1392 7.10388 12.2582 8.04422H15.0358C15.0358 8.01583 15.0399 8.00247 15.0391 7.98493C14.9737 7.04309 14.7126 6.12524 14.2725 5.29001C14.2503 5.24825 14.1668 5.21652 14.1113 5.2161C13.5267 5.21067 12.9455 5.21276 12.3626 5.21276H11.9003ZM4.71831 8.04631H7.52222V5.21276C6.74097 5.21276 5.97141 5.21276 5.20184 5.21777C5.16426 5.21777 5.10288 5.28458 5.09453 5.32842C4.99724 5.83868 4.89369 6.3481 4.8202 6.86211C4.76466 7.25086 4.75088 7.64587 4.71789 8.04631H4.71831ZM11.2761 8.0509C11.2498 7.141 11.132 6.23604 10.9245 5.34972C10.899 5.24282 10.8614 5.209 10.7504 5.20983C10.0376 5.21568 9.32482 5.21276 8.61163 5.21318C8.56737 5.21318 8.52269 5.21902 8.48636 5.22153V8.0509H11.2761ZM0.964456 9.00127C0.964456 9.03843 0.964456 9.05931 0.964456 9.07977C1.02983 10.0004 1.28292 10.8979 1.70813 11.7171C1.73193 11.7638 1.8192 11.8031 1.87766 11.8039C2.38207 11.8106 2.8869 11.8077 3.39173 11.8077H4.09615C3.97881 10.8686 3.86232 9.93868 3.7454 9.00127H0.964456ZM11.9087 11.8077C12.6511 11.8077 13.4119 11.8098 14.1698 11.8031C14.2178 11.8031 14.2858 11.7438 14.3109 11.6945C14.568 11.2008 14.7587 10.6753 14.8779 10.1316C14.9552 9.76289 15.0065 9.38876 15.0717 9.00419H12.2607C12.1421 9.94203 12.026 10.869 11.9083 11.8077H11.9087ZM5.10831 11.7972H7.5218V9.00586H4.73C4.75554 9.94717 4.88223 10.883 5.10789 11.7972H5.10831ZM8.48302 8.99959V11.7972H10.8973C11.1233 10.881 11.2493 9.94298 11.2731 8.99959H8.48302ZM5.39309 12.7501C5.44236 12.8754 5.48411 12.9923 5.53172 13.1059C5.83069 13.8211 6.19146 14.498 6.76811 15.035C6.98566 15.2375 7.22742 15.4062 7.51971 15.4981V12.7505L5.39309 12.7501ZM8.47718 15.4868C9.22043 15.3436 10.4297 13.7748 10.5858 12.753H8.47718V15.4868ZM5.41271 4.27409H7.52264V1.55996C6.71842 1.77667 5.86743 2.9379 5.41271 4.27409ZM10.6322 4.26866C10.4067 3.81394 10.2113 3.38469 9.98373 2.97423C9.7382 2.52995 9.42378 2.13327 9.00706 1.83346C8.84755 1.71863 8.66675 1.63345 8.47759 1.52405V4.27033L10.6322 4.26866ZM10.4234 15.1431C11.732 14.668 12.8002 13.8746 13.6599 12.7447C12.9751 12.7447 12.3258 12.7447 11.6765 12.7484C11.6536 12.7529 11.6321 12.7628 11.6139 12.7773C11.5956 12.7919 11.5812 12.8106 11.5717 12.8319C11.3003 13.6537 10.9349 14.4316 10.4259 15.144L10.4234 15.1431ZM5.57723 15.1431C5.07031 14.437 4.7062 13.6646 4.43771 12.8466C4.40848 12.756 4.35879 12.7447 4.27779 12.7451C3.66899 12.7476 3.0606 12.7451 2.4518 12.7451C2.42383 12.7451 2.39627 12.7514 2.34741 12.7568C3.20633 13.8779 4.27236 14.6713 5.57974 15.144L5.57723 15.1431ZM10.4113 1.88607C10.4149 1.90395 10.4202 1.92143 10.4272 1.93827C10.9282 2.61889 11.2853 3.37383 11.5521 4.17262C11.5821 4.26323 11.6302 4.27617 11.7116 4.27576C12.3054 4.27325 12.8991 4.27576 13.4925 4.27576C13.5313 4.27576 13.5697 4.27033 13.6303 4.26574C12.7768 3.15879 11.7178 2.37336 10.4138 1.88691L10.4113 1.88607ZM2.36453 4.27409H2.53615C3.10904 4.27409 3.68151 4.2695 4.2544 4.27785C4.38385 4.27785 4.43228 4.23609 4.47112 4.11959C4.72917 3.34544 5.07783 2.61638 5.56429 1.95664C5.57837 1.9324 5.59119 1.90746 5.6027 1.8819C4.2853 2.37545 3.22846 3.15962 2.36453 4.27409Z"
+                                        fill="white"></path>
+                                </svg></span><select class="form-select form-select" aria-label=".form-select-sm">
+                                <option value="pl">Polski</option>
+                                <option value="en">English</option>
+                                <option value="de">Deutsch</option>
+                            </select></div>
+                    </div>
+                    <div class="container d-sm-none my-3 footer-divider"></div>
+                    <div class="magico col-sm-6"><span>© github.com/mroch4 All rights reserved</span></div>
+                </div>
+            </footer>
+        </div>
+    </footer>
+</body>
+
+</html>

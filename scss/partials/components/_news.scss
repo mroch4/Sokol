@@ -1,0 +1,24 @@
+section.news {
+    min-height: 50vh;
+    background-color: $lighter-grey;
+    background-image: url('../svg/spline.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    .container {
+        color: $black;
+
+        header {
+            span {
+                color: $dark-grey;
+            }
+        }
+
+        p {
+            line-height: 1.25rem;
+        }
+
+        @include responsive-h2;
+        @include responsive-font-size;
+    }
+}

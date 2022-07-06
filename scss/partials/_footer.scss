@@ -1,0 +1,60 @@
+footer {
+    background-color: $black;
+    color: $white;
+    font-size: 1rem;
+
+    .card {
+        color: $dark-grey;
+        @include responsive-h2
+    }
+
+    a.logo-footer {
+        margin-bottom: 2rem;
+        padding: 0;
+        height: 2.5rem;
+        width: 9.375rem;
+        background-image: url('../svg/logo_footer.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    .header {
+        margin-left: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .sublist {
+        span {
+            font-size: 0.875rem;
+            margin: 0.25rem 0;
+
+            &.date {
+                color: $light-grey;
+            }
+        }
+
+        a {
+            color: $light-grey;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .container {
+            align-items: center;
+            justify-content: center;
+
+            .pri,
+            .sec,
+            .tri {
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

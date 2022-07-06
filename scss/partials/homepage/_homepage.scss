@@ -1,0 +1,67 @@
+.homepage {
+    position: relative;
+    margin-top: -3.5rem;
+}
+
+section.events {
+    background-color: $lighter-grey;
+    background-image: url('../svg/spline_events.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-top: -2rem;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+
+    header {
+        border-bottom: 1px solid $black;
+
+        span {
+            color: $dark-grey;
+        }
+
+        @include responsive-h2;
+    }
+
+    .desc {
+        color: $dark-grey;
+    }
+
+    .photo {
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .bubble {
+        position: relative;
+        width: 6.5rem;
+        height: 7.5rem;
+    }
+
+    .triangle {
+        bottom: -1rem;
+        left: 1rem;
+    }
+
+    .carousel-indicators {
+        bottom: -3rem;
+
+        & button {
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background-color: $light-grey;
+
+            &.active {
+                background-color: $purple;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .event-single {
+            width: 32%;
+        }
+    }
+}

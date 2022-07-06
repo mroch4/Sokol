@@ -1,0 +1,60 @@
+nav {
+    padding-bottom: 0 !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+
+    .navbar-toggler {
+        margin: 0;
+        padding: 0;
+        border: none;
+        color: #17171B;
+
+        &:active,
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    a.navbar-brand {
+        margin: 0;
+        padding: 0;
+        height: 2.75rem;
+        width: 10.4375rem;
+        background-image: url('../svg/logo_nav.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        @include media-breakpoint-up(sm) {
+            height: 3.25rem;
+            width: 12.5rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            height: 4.1875rem;
+            width: 15.3125rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        #navbarNav {
+            margin-left: -1rem;
+            padding: 0 1rem;
+            border-left: 60px solid rgba(0, 0, 0, 0.51);
+
+            ul {
+                border-bottom: 1px solid $lighter-grey;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        #navbarNav {
+            position: relative;
+        }
+
+        .navbar-collapse {
+            justify-content: end;
+        }
+    }
+}

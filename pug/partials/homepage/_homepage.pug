@@ -1,0 +1,32 @@
+include _banner
+section.homepage
+    include _tiles
+    include _table
+    include /partials/components/_heading
+section.events.p-3.pt-4
+    div.container
+        div.d-none.d-lg-flex.mb-3.p-4.card
+            div.d-col.pe-4
+                header.pb-4
+                    span Temat wydarzenia:
+                    h2.my-2 Witaj Majowa Jutrzenko
+                    span 30.06.2022
+                p.desc.py-3.c-fs-small „Dokąd idziesz Polsko…” – program słowno-muzyczny w wykonaniu zespołów artystycznych Rozwadowskiego Domu Kultury „Sokół” oraz Chóru Kameralnego Miejskiego Domu Kultury w Stalowej Woli, prowadzenie koncertu: Paweł Gładyś, akompaniament: Bartosz Kanach
+                span: a(href="/") Zobacz szczegóły...
+            div.d-flex.col-lg-7.align-items-start.justify-content-end.photo
+                img(src="../images/event.png" alt="Event")
+        div#newsCarousel.carousel.slide.d-lg-none(data-bs-ride="carousel")
+            div.carousel-inner
+                div.carousel-item.active
+                    include _eventSingle
+                div.carousel-item
+                    include _eventSingle
+                div.carousel-item
+                    include _eventSingle
+            ol.carousel-indicators
+                button.active(type="button" data-bs-target="#newsCarousel" data-bs-slide-to="0" aria-current="true" aria-label="News 1")
+                button(type="button" data-bs-target="#newsCarousel" data-bs-slide-to="1" aria-label="News 2")
+                button(type="button" data-bs-target="#newsCarousel" data-bs-slide-to="2" aria-label="News 3")
+        div.d-none.d-lg-flex.justify-content-between
+            +loop(3)
+                include _eventSingle

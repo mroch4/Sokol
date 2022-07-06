@@ -1,0 +1,9 @@
+section.table {
+    padding: 1rem 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 0 1rem;
+        border-radius: $radius-sm;
+        background-image: linear-gradient(to bottom, #F5F5F5, $white 93%, $white);
+    }
+}

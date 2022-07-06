@@ -1,0 +1,9 @@
+section.container.px-3.table.mb-5
+    div.mt-4.pt-1
+        header.d-none.d-md-flex.mt-4.mb-2
+            include _tableHeader
+        section.items
+            +loop(5)
+                include _tableItem
+        div.flex-center.my-3
+            a(href="/") Pokaż więcej...

@@ -1,0 +1,55 @@
+section.event {
+    min-height: 100vh;
+    background-color: $lighter-grey;
+
+    .container {
+        color: $black;
+
+        header {
+            span {
+                color: $dark-grey;
+            }
+
+            .card {
+                display: inline-flex;
+
+                span {
+                    color: $black;
+                }
+            }
+        }
+
+        @include responsive-h2;
+        @include responsive-font-size;
+    }
+
+    .card {
+        img {
+            width: 40px;
+        }
+
+        .title {
+            font-size: 0.875rem;
+            font-weight: $font-weight-normal;
+            color: $dark-grey;
+        }
+
+        .info {
+            font-weight: $font-weight-bold;
+        }
+
+        .desc {
+            font-weight: $font-weight-light;
+        }
+
+        .amount {
+            font-size: 2rem;
+            font-weight: $font-weight-max-bold;
+        }
+
+        .btn {
+            background-color: $purple;
+        }
+    }
+
+}

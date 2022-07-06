@@ -1,0 +1,33 @@
+footer.p-3
+    div.container.d-col
+        include components/_iframe
+        div.d-col.justify-content-center.flex-sm-row.justify-content-between.mb-3
+            a.logo-footer(href="#")
+            ul.d-col.flex-sm-row.list-unstyled
+                div.d-col.flex-md-row.pri
+                    li.header: a(href="/") AKTUALNOŚCI
+                        ul.d-none.d-sm-flex.flex-column.list-unstyled.sublist
+                            li.my-1: a.submenu(href="/") Dla dzieci
+                            li.my-1: a.submenu(href="/") Dla młodzieży
+                            li.my-1: a.submenu(href="/") Dla dorosłych
+                    li.header: a(href="/") ZAJĘCIA STAŁE
+                        ul.d-none.d-sm-flex.flex-column.list-unstyled.sublist
+                            li.my-1: a.submenu(href="/") Dla dzieci
+                            li.my-1: a.submenu(href="/") Dla młodzieży
+                            li.my-1: a.submenu(href="/") Dla dorosłych
+                div.d-col.flex-md-row
+                    div.d-col.flex-lg-row.sec
+                        li.header: a(href="/") POZNAJ NAS
+                        li.header: a(href="/") PROJEKTY
+                            ul.d-none.d-sm-flex.flex-column.list-unstyled.sublist
+                                li.my-1: a.submenu(href="/") Castingi
+                                li.my-1: a.submenu(href="/") Koncerty
+                    div.d-flex.tri
+                        li.header: a(href="/") KONTAKT
+                            div.d-none.d-md-flex.flex-column.list-unstyled.sublist
+                                span sokol@mdkstalowawola.pl
+                                span tel. 15 600 02 85
+                                span.c-fs-xs.date Poniedziałek - piątek: 8:00-16:00 
+                                span ul. Rozwadowska 21
+                                span 35-074 Stalowa Wola
+        include components/_magicosocial

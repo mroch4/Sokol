@@ -1,0 +1,26 @@
+include _heading
+section.gallery.my-5
+    div.container.px-3
+        div.d-col.flex-lg-row.justify-content-between
+            div.d-col.flex-sm-row.flex-lg-column.col-lg-6.mb-4.first-section
+                div.flex-center.cameraimage
+                    div.d-col.align-items-center.py-2.cheese
+                        h3 CHEESE!
+                        span Wyleciał ptaszek!
+                    div.triangle
+                    img(src="../images/camera.png" alt="Camera icon")
+                div.d-col.col-sm-7.col-lg-12
+                    h1.text-center.mb-3 Zdjęcia z ostatniego razu
+                    span.desc.text-center.c-fs-sm Tu opis zdjęcia, oczywiście to nieobowiązkowo, ale gorąco polecam ;)
+            div#galleryCarousel.carousel.slide.col-lg-6(data-bs-ride="carousel")
+                div.carousel-inner
+                    div.carousel-item.active
+                        img.d-block.w-100(src="../images/event.png" alt="Event 1")
+                    div.carousel-item
+                        img.d-block.w-100(src="../images/mdk.jpeg" alt="Event 2")
+                    div.carousel-item
+                        img.d-block.w-100(src="../images/event2.jpeg" alt="Event 3")
+                ol.carousel-indicators
+                    button.active(type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1")
+                    button(type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2")
+                    button(type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3")

@@ -1,0 +1,60 @@
+// Colors
+$black: #313131;
+$dark-grey: #5A6473;
+$light-grey: #9f9f9f;
+$list-grey: #DBDDDE;
+$lighter-grey: #f6f6f6;
+$white: #ffffff;
+$green: #239456;
+$purple: #4E23D5;
+
+// Border radius
+$radius-sm: 0.3125rem; //5px - card
+$radius-md: 0.625rem; //10px - comic speech bubble
+$radius-lg: 1.25rem; //20px - 'button' tile
+
+// Font weight
+$font-weight-lighter: 300;
+$font-weight-light: 400;
+$font-weight-normal: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+$font-weight-max-bold: 800;
+
+$grid-breakpoints: (xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  3xl: 1850px,
+);
+
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  3xl: 1610px,
+);
+
+$font-sizes: (1: 3.5rem,
+  2: 3rem,
+  3: 2.25rem,
+  4: 1.6rem,
+  5: 1.25rem,
+  6: 1rem,
+  "small": 0.9375rem,
+);
+
+// Custom classses
+$utilities: ("c-font-size": (property: font-size,
+    class: "c-fs",
+    responsive: true,
+    rfs: true,
+    values: map-merge($font-sizes, ("xs": 0.75rem,
+        "sm": 0.875rem,
+        "md": 1.125rem,
+      )),
+  ),
+)

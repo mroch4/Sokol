@@ -1,0 +1,25 @@
+.controls {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    .button {
+        display: flex;
+        margin-left: 0.5rem;
+        padding: 0.2rem;
+        border: 1px solid $black;
+        border-bottom-right-radius: $radius-sm;
+        border-bottom-left-radius: $radius-sm;
+        font-weight: $font-weight-bolder;
+        cursor: pointer;
+
+        img {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 0 1rem;
+    }
+}
