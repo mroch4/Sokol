@@ -1,6 +1,6 @@
 # Sokol
 
-Website example
+An example of website, which I wrote a frontend code layer to.
 
 ## Page URL:
 
